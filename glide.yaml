@@ -1,0 +1,6 @@
+package: exifrename
+import:
+- package: github.com/rwcarlsen/goexif
+  subpackages:
+  - exif
+  - mknote

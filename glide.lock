@@ -1,0 +1,10 @@
+hash: 081f2e3f14c5489a75ccd1dabd1560ca5965c6e0209df8d92f6ac0aa2096e4b2
+updated: 2016-12-05T16:54:37.893213564+01:00
+imports:
+- name: github.com/rwcarlsen/goexif
+  version: 709fab3d192d7c62f86043caff1e7e3fb0f42bd8
+  subpackages:
+  - exif
+  - mknote
+  - tiff
+testImports: []
