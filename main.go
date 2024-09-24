@@ -75,7 +75,7 @@ func processFile(template *template.Template, testMode bool, fileName string) {
 		fmt.Printf("%s -> %s\n", fileName, targetName)
 		if !testMode {
 			os.MkdirAll(filepath.Dir(targetName), os.ModeDir | 0777)
-			os.Rename(targetName, targetName)
+			os.Rename(fileName, targetName)
 		} else if UnittestMode {
 			Renames[fileName] = targetName
 		}
